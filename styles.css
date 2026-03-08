@@ -5,4 +5,66 @@ input[type="text"] {
   width: 400px;
   padding: 10px;
   border-radius: 25px;
+  background-color: grey;
+  color: white;
+}
+input[type="submit"]{
+  margin-top: 10px;
+  padding: 8px 16px;
+  border-radius: 30px;
+}
+.top-links {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+}
+.top-links a{
+  text-decoration: none;
+    padding: 8px 16px;
+    margin-left: 10px;
+    border-radius: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: black;
+
+}
+.searchbar{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin: 100px auto;
+}
+.row{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+input.advanced-button{
+  color: black;
+  background-color: hsla(212, 89%, 72%, 0.932);
+  border: 1px solid grey;
+  padding : 8px 16px;
+  border-radius: 0px;
+  font-weight: bold;
+}
+.row input[type="text"]{
+  border-radius: 0;
+  background-color: #313131;
+  color: white;
+  border-color: grey;
+}
+.advanced-body{
+  background-color: #202124;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+.advanced-body input:focus{
+  border: 2px solid blue;
+  outline: none;
+}
+.index-body{
+  background-color: #202124;
+  color: white;
+  font-family: Arial, sans-serif;
 }
